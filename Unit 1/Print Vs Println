@@ -1,0 +1,21 @@
+System.out.print("Hello World!");
+System.out.print("\tAnd now ...");
+System.out.println();
+System.out.println("Let's start coding.");
+
+System.out.println();
+
+System.out.print("To be");
+System.out.print(" or not to be.");
+System.out.print("\nThat is");
+System.out.println(" the question.");
+System.out.print("This is");
+System.out.println(" for the whole family!");
+
+System.out.println();
+
+System.out.println("I said \"hello"\"");            \\I said "hello"
+System.out.println("I said \\hello\\");            \\I said \\hello\\
+System.out.println("Hello.\n How are you?");       \\Hello.
+                                                     How are you?
+System.out.println("Hello.\t How are you?");       \\Hello.  How are you?

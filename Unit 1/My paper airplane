@@ -1,0 +1,16 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println("1. Go get paper ");
+    System.out.println("2. Walk to a table ");
+    System.out.println("3. Bring a chair next to the table ");
+    System.out.println("4. Sit down in the chair ");
+    System.out.println("5. Fold the paper in half hot dog style ");
+    System.out.println("6. Fold one side back on the fold ");
+    System.out.println("7. Fold that same side the same way two more times ");
+    System.out.println("8. Do the same for the other side ");
+    System.out.println("9. Open the wings up ");
+    System.out.println("10. Bring your arm back ");
+    System.out.println("11. Bring your arm forward and release the plane ");
+    System.out.println("12. Thats the end! ");
+  }
+}
