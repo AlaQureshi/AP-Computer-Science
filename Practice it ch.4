@@ -1,0 +1,137 @@
+// 4.2
+
+x == 4
+true
+x == y
+false
+x == z
+true
+y == z
+false
+x + y > 0
+true
+x - z != 0
+false
+y * y <= z
+false
+y / y == 1
+true
+x * (y + 2) > y - (y + z) * 2
+true
+
+//4.3
+Answer = e
+
+//4.4
+public class Oops4{
+public static void main(String[] args) {
+int a = 7, b = 42;
+
+if (a < b) {
+System.out.println("a is the smallest!");
+}
+
+
+
+if (a < b) {
+int smaller = a;
+}
+else {
+int smaller = b;
+}
+}
+}
+
+//4.5
+
+ifElseMystery1(3, 20);
+13 21
+ifElseMystery1(4, 5);
+5 6
+ifElseMystery1(5, 5);
+6 5
+ifElseMystery1(6, 10);
+7 11
+
+//4.6
+
+ifElseMystery2(10, 2);
+10 3
+ifElseMystery2(3, 8);
+9 9
+ifElseMystery2(4, 4);
+3 4
+ifElseMystery2(10, 30);
+29 30
+
+//4.7
+
+int num;
+System.out.println("Type a number: ");
+Scanner input = new Scanner(System.in);
+num =  input.nextInt();
+if (num % 2 == 0)
+    System.out.println("even");
+else
+    System.out.println("odd");
+
+//4.8
+
+Scanner console = new Scanner(System.in);
+System.out.print("Type a number: ");
+int number = console.nextInt();
+if (number % 6 ==0)
+{
+System.out.println("Divisible by 6.");
+}
+else if (number%2 != 0)
+{
+System.out.println("Odd.");
+}
+
+//4.10
+
+a=2;
+if(x < 30) {
+x++;
+}
+System.out.println("Java is awesome! " + x);
+
+//4.11
+
+System.out.print("Is your money multiplied 1 or 2 times? ");
+int times = console.nextInt();
+System.out.print("And how much are you contributing? ");
+int donation = console.nextInt();
+total = total + donation;
+if (times == 1) {
+
+sum = sum + donation;
+count1++;
+
+}
+if (times == 2) {
+
+sum = sum + 2 * donation;
+count2++;
+
+}
+
+//4.18
+Answer = a
+
+//4.27
+
+public static int medianOf3(int n1, int n2, int n3) {
+if (n1 < n2 && n2 < n3 || n3<n2 && n2<n1) {
+return n2;
+}
+if (n1 < n3 && n3<n2 || n2<n3 && n3<n1) {
+return n3;
+}else{
+return n1;
+}
+}
+
+
+
