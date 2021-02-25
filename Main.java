@@ -1,16 +1,14 @@
-import java.util.Scanner;
-class Main { 
+
+class Main {
 public static void main(String[] args) {
-int x = 42;
-int y = 17;
-int z = 25;
-System.out.print((y<x)&&(y<=z)); //1. True
-System.out.print(((x%2)==(y%2))||((x%2)==(z%2))); //2. False
-System.out.print((x<=(y+z))&&(x>=(y+z))); //3. True
-System.out.print(!(x<y)); //4. True
-System.out.print(((x+(y%2))==0)||!((z-(y%2))==0)); //5. True
+
+int x = 25;
+double y = Math.sqrt(x);
+
+System.out.println(y);
+
 }
 
-} 
+}
 
 
