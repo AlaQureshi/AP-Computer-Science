@@ -1,11 +1,13 @@
+import java.util.Scanner;
 
-class Main {
-public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
 
-int x = 25;
-double y = Math.sqrt(x);
-
-System.out.println(y);
+        System.out.print("Type an integer: ");
+        int integers = read.nextInt();
+        int y = integers * 2;
+        System.out.println(integers + " times 2 = " + y);
 
 }
 
