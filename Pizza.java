@@ -11,4 +11,11 @@ public class Pizza {
         meatType = mt;
         veggieType = vt;
     }
+    public void mmm(){
+        System.out.println("That pizza looks great!");
+    }
+    public static void main(String[] args) {
+        Pizza AlaPizza = new Pizza("Large", "Red Sauce", 3, "chicken", "jalapenos");
+        AlaPizza.mmm();
+    }
 }
